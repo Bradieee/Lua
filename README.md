@@ -1,2 +1,2 @@
 # Lua
-Learning Lua
+Lua for gamesense
