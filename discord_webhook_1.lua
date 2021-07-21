@@ -1,3 +1,5 @@
+--Made by LosAngeles originally
+
 -- Libraries
 local Discord = require('gamesense/discord_webhooks')
 
@@ -5,12 +7,12 @@ local Discord = require('gamesense/discord_webhooks')
 local Webhook = Discord.new('https://ptb.discord.com/api/webhooks/867034223578841128/mR0qSTZhPOf3sZ-UeB1DtST7ArEEjqORUVcQugRJsqlUPuR2kmEEtW6w3NmNUVKOarJ4')
 local RichEmbed = Discord.newEmbed()
 
--- Get Time
+-- Get Time (Added by me)
 local client_system_time
 local sys_time = { client.system_time() }
 local actual_time = string.format('%02d:%02d:%02d', sys_time[1], sys_time[2], sys_time[3])
 
---Get Steam username
+--Get Steam username (Added by me)
 local name = entity.get_player_name(1)
 
 -- Properties
