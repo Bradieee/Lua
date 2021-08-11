@@ -1,2 +1,2 @@
 # Lua
-Lua for gamesense
+Luas
