@@ -13,7 +13,8 @@ local sys_time = { client.system_time() }
 local actual_time = string.format('%02d:%02d:%02d', sys_time[1], sys_time[2], sys_time[3])
 
 --Get Steam username (added by me)
-local name = entity.get_player_name(1)
+local persona_api = js.MyPersonaAPI
+local name = persona_api.GetName()
 
 --Get steamID3 (added by me)
 local steam = entity.get_steam64(1)
