@@ -16,7 +16,7 @@ local ctag = 'OnKey.lua'
 
 
 --Menu
-local lua_name = ui.new_label("LUA", "B", "OnKey.lua (For Semi-Rage)")
+local lua_name = ui.new_label("LUA", "B", "OnKey.lua")
 local color_picker = ui.new_color_picker('LUA', 'B', 'OnKey Watermark color picker', 89, 119, 239, 255)
 local Label1 = ui.new_label("LUA", "B", "====================")
 local Shoot = ui.new_hotkey("LUA", "B", "RageBot")
@@ -56,9 +56,7 @@ local resolver = ui.reference("RAGE", "OTHER", "Anti-aim correction")
 client.exec "clear"
 client_color_log(255, 255, 255, "====================")
 client_color_log(0, 150, 255, 	"Welcome to OnKey.lua, ", name)
-client_color_log(175, 255, 0, 	"This lua is a little helper for semi-rage.")
 client_color_log(255, 255, 255, "The settings is on LUA - B")
-client_color_log(255, 182, 193, "made by luma0w0")
 client_color_log(255, 255, 255, "====================")
 client_color_log()
 client.exec("play UI/competitive_accept_beep.wav")
